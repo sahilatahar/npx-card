@@ -1,0 +1,44 @@
+{
+	"name": "sahilatahar",
+	"version": "1.0.0",
+	"private": false,
+	"description": "A personal card for Sahil Atahar (@sahilatahar)",
+	"keywords": [
+		"card",
+		"npm",
+		"npm card",
+		"npx",
+		"npx card",
+		"business card"
+	],
+	"homepage": "https://github.com/sahilatahar/npx-card#readme",
+	"bugs": {
+		"url": "https://github.com/sahilatahar/npx-card/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/sahilatahar/npx-card.git"
+	},
+	"license": "ISC",
+	"author": "Sahil Atahar <sahilatahar@gmail.com> (https://sahilatahar.dev/)",
+	"type": "commonjs",
+	"main": "card.js",
+	"bin": {
+		"sahilatahar": "card.js"
+	},
+	"scripts": {
+		"test": "node card.js",
+		"pub": "npm version major & npm publish"
+	},
+	"dependencies": {
+		"boxen": "^4.2.0",
+		"chalk": "^4.1.0",
+		"clear": "^0.1.0",
+		"cli-spinners": "^2.5.0",
+		"inquirer": "^7.3.2",
+		"open": "^7.0.4",
+		"ora": "^5.1.0",
+		"request": "^2.88.2"
+	},
+	"devDependencies": {}
+}
